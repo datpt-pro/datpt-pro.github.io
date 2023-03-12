@@ -14,7 +14,7 @@ en: &DEFAULT_EN
     title: Welcome to My Portfolio!
     text: It's Nice To Meet You
     button: Tell Me More
-    buttonlink: "#services"
+    buttonlink: "#portfolio"
   portfolio:
     title: "Portfolio"
     text: "Some of my projects have been done by myself"
