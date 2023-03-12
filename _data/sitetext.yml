@@ -65,7 +65,7 @@ en: &DEFAULT_EN
       - url: https://linkedin.com
         icon: "fab fa-linkedin-in"
       - url: http://zaloapp.com/qr/p/13fm508t9y989
-        icon: "fab fa-phone"
+        icon: "fab fa-phone-f"
 en-US:
   <<: *DEFAULT_EN
 en-CA:
