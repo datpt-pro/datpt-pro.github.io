@@ -42,7 +42,7 @@ en: &DEFAULT_EN
         year: "2020-Now"
         desc: "Filming and editing products about electrical appliances, health care and services, gym projects"
         image: assets/img/timeline/3.jpg
-        alt:
+        alt: left
         # you can enforce the alignment
         align: right
     end: "Be Part <br> of My <br> Story!"
@@ -54,7 +54,7 @@ en: &DEFAULT_EN
     section: about
 
   contact:
-    title: "Contact Us"
+    title: "Contact Me"
     text: "Contact by email datphan1110@gmail.com or call/zalo 0387781882"
 
   footer:
