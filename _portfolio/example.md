@@ -12,6 +12,6 @@ alt: image alt text
 
 ---
 
-![alt text for screen readers](../assets/img/portfolio/04-thumbnail.jpg)
+[![Watch the video](https://img.youtube.com/vi/nTQUwghvy5Q/default.jpg)](https://youtu.be/nTQUwghvy5Q)
 
 
