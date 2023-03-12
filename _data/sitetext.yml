@@ -42,7 +42,7 @@ en: &DEFAULT_EN
         year: "2020-Now"
         desc: "Filming and editing products about electrical appliances, health care and services, gym projects"
         image: assets/img/timeline/3.jpg
-        alt: image alt text
+        alt:
         # you can enforce the alignment
         align: right
     end: "Be Part <br> of My <br> Story!"
