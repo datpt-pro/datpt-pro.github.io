@@ -42,9 +42,8 @@ en: &DEFAULT_EN
         year: "2020-Now"
         desc: "Filming and editing products about electrical appliances, health care and services, gym projects"
         image: assets/img/timeline/3.jpg
-        alt: left
+        alt: 
         # you can enforce the alignment
-        align: right
     end: "Be Part <br> of My <br> Story!"
 
   about:
@@ -65,7 +64,7 @@ en: &DEFAULT_EN
       - url: https://www.linkedin.com/in/datpt-pro/
         icon: "fab fa-linkedin-in"
       - url: http://zaloapp.com/qr/p/13fm508t9y989
-        icon: "fab fa-phone-f"
+        icon: "fas fa-phone-alt"
 en-US:
   <<: *DEFAULT_EN
 en-CA:
