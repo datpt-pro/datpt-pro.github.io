@@ -62,7 +62,7 @@ en: &DEFAULT_EN
     social:
       - url: https://www.facebook.com/datphan89
         icon: "fab fa-facebook-f"
-      - url: https://linkedin.com
+      - url: https://www.linkedin.com/in/datpt-pro/
         icon: "fab fa-linkedin-in"
       - url: http://zaloapp.com/qr/p/13fm508t9y989
         icon: "fab fa-phone-f"
