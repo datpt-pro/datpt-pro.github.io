@@ -1,0 +1,77 @@
+#
+# Work based on https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml
+#
+# Configuration: Add to _config.yml
+# locale: "en-US"  [YOUR PREFERRED LOCALE]
+#
+# How to use:
+# {{ site.data.ui-text[site.locale].<var_name> | default: 'text' }}
+
+# English (default)
+# -----------------
+en: &DEFAULT_EN
+  header:
+    title: Welcome to My Portfolio!
+    text: It's Nice To Meet You
+    button: Tell Me More
+    buttonlink: "#services"
+  portfolio:
+    title: "Portfolio"
+    text: "Some of my projects have been done by myself"
+    section: portfolio
+    closebutton: "Close Project"
+
+  timeline:
+    title: "Timeline"
+    text: "Study and work"
+    section: timeline
+    # left is the default
+    #start_align: "left"
+    events:
+      - title: "FPT Polytechnic"
+        year: "2017-2019"
+        desc: "Study and practice majoring in graphic design"
+        image: assets/img/timeline/1.jpg
+        alt:
+      - title: "Editor in Viet My Sing"
+        year: "2019-2020"
+        desc: "Shoot and edit videos about products, services and essential oil products"
+        image: assets/img/timeline/2.jpg
+        alt:
+      - title: "Filming and editing in Nguon Song Viet Group"
+        year: "2020-Now"
+        desc: "Filming and editing products about electrical appliances, health care and services, gym projects"
+        image: assets/img/timeline/3.jpg
+        alt: image alt text
+        # you can enforce the alignment
+        align: right
+    end: "Be Part <br> of Our <br> Story!"
+
+  about:
+    title: "About Me"
+    text: "My resume"
+    body: "A videographer and editor with over 4 years of experience. Always learning and exploring new things to create the most thoughtful products. The desire to conquer all challenges"
+    section: about
+
+  contact:
+    title: "Contact Us"
+    text: "Contact by email datphan1110@gmail.com or call/zalo 0387781882"
+
+  footer:
+    legal: "Privacy Policy"
+    social:
+      - url: https://www.facebook.com/datphan89
+        icon: "fab fa-facebook-f"
+      - url: https://linkedin.com
+        icon: "fab fa-linkedin-in"
+      - url: http://zaloapp.com/qr/p/13fm508t9y989
+        icon: "fab fa-phone"
+en-US:
+  <<: *DEFAULT_EN
+en-CA:
+  <<: *DEFAULT_EN
+en-GB:
+  <<: *DEFAULT_EN
+en-AU:
+  <<: *DEFAULT_EN
+
